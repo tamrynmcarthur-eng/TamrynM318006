@@ -5,18 +5,17 @@
         <title>TV search site</title>
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" href="styles.css"/>
-        <script src="https://kit.fontawesome.com/ddb81feb2c.js" crossorigin="anonymous"></script>
 
     </head>
     <body id="home-page">
         <nav class="bg-gray-100 border-b border-gray-300 py-5 px-6">
             <a class="text-xl font-semibold text-gray-800" href="index.html"> Tam's TV Search Site </a>
-            <button class="md:hidden items-center p-2 rounded text-gray-800 hover:bg-blue-
-            200 ml-auto" onclick="this.nextElementSibling.classList.toggle('hidden')">
+            <button class="md:hidden items-center p-2 rounded text-gray-800 hover:bg-blue-200
+            ml-auto" onclick="this.nextElementSibling.classList.toggle('hidden')">
             </button>
         </nav>
         <div class="max-w-6xl mx-auto my-12 px-4">
-            <form id="search-form" class="grid grid-cols-7 gap-3 items-center bg-white p-4 rounded-xl 
+            <form id="search-form" class="grid grid-cols-8 gap-3 items-center bg-white p-4 rounded-xl 
             shadow-md border border-gray-300">
             <select id="search-type" class="col-span-1">
                 <option value="show">Shows</option>
@@ -26,7 +25,7 @@
                 class="col-span-5 w-full border border-gray-300 rounded-lg px-4 py-3
                 text-base focus:outline-none focus:ring-2 focus:ring-blue-500">
 
-                <button type="submit" class="col-span-1 bg-blue-500 text-white px-4 py-3
+                <button type="submit" class="col-span-2 bg-blue-500 text-white px-4 py-3
                 text-base font-medium rounded-lg hover:bg-blue-600">Search</button>
                 </form>
         </div>

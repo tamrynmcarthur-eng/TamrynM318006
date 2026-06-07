@@ -65,7 +65,7 @@ async function TVMazeSearch(query, searchType) {
     const url = `https://api.tvmaze.com/search/${apiEndpoint}?q=${encodeURIComponent(query)}`;
 
     try {
-        container.innerHTML = `<p class="text-gray-500 text-center col-span-full> Searching...</p>`;
+        container.innerHTML = `<p class="text-gray-500 text-center col-span-full"> Searching...</p>`;
 
         const response = await fetch(url);
         if(!response.ok) {
